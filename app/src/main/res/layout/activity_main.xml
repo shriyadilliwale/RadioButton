@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/radio_selected"
+    tools:context="com.creageek.radiobutton.MainActivity">
+
+    <com.creageek.segmentedbutton.SegmentedButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selector"
+            android:textColor="@drawable/text_color"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_margin="5dp"/>
+
+
+        <RadioButton
+            android:id="@+id/radio_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Second"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selector"
+            android:textColor="@drawable/text_color"
+            android:elevation="4dp"
+            android:padding="16dp"
+            android:layout_margin="5dp"/>
+
+    </RadioGroup>
+    </com.creageek.segmentedbutton.SegmentedButton>
+
+
+</LinearLayout>
